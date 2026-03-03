@@ -416,6 +416,10 @@
     [
       "0f6ae810-18c8-4053-b65b-18168172d752",
       "charger"
+    ],
+    [
+      "90f1c0c1-ec76-41f1-aef0-d566f24f6ae2",
+      "balance"
     ]
   ],
   "text_variables": {}
