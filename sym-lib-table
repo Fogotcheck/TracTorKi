@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bq77915")(type "Legacy")(uri "${KIPRJMOD}/bq77915/bq77915.lib")(options "")(descr ""))
+)
