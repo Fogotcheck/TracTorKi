@@ -2894,8 +2894,20 @@
 		(uuid "e50978a7-6108-4831-a149-384c5e0f0544")
 	)
 	(no_connect
+		(at 160.02 144.78)
+		(uuid "0c81987c-3a5d-4d41-b426-57a66d40a17b")
+	)
+	(no_connect
 		(at 160.02 162.56)
 		(uuid "6575b5b0-09c6-462c-8d46-5460ff7ce9ac")
+	)
+	(no_connect
+		(at 160.02 160.02)
+		(uuid "9a51e34b-96e3-4eb1-aa74-f230a33dd172")
+	)
+	(no_connect
+		(at 160.02 147.32)
+		(uuid "bd719ef3-20a5-4a6a-baea-306193a42a45")
 	)
 	(no_connect
 		(at 160.02 157.48)
@@ -3250,16 +3262,6 @@
 			(type default)
 		)
 		(uuid "496b4e6f-6ef9-45a5-bc25-7527bd858208")
-	)
-	(wire
-		(pts
-			(xy 160.02 144.78) (xy 162.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a603822-298e-489f-99be-f9f58fa52fb2")
 	)
 	(wire
 		(pts
@@ -3743,16 +3745,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 147.32) (xy 162.56 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb37e768-ebd9-4fc4-8b07-87af388935a3")
-	)
-	(wire
-		(pts
 			(xy 128.27 81.28) (xy 148.59 81.28)
 		)
 		(stroke
@@ -3840,16 +3832,6 @@
 			(type default)
 		)
 		(uuid "c10182da-1c55-4c08-96c8-3c7f8f56721e")
-	)
-	(wire
-		(pts
-			(xy 160.02 160.02) (xy 163.83 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6479b86-308a-4f80-8f10-da8ab961c10c")
 	)
 	(wire
 		(pts
@@ -4105,28 +4087,6 @@
 			)
 		)
 	)
-	(global_label "STUSB4500_POK3"
-		(shape input)
-		(at 162.56 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28dacf7a-b2eb-48f8-b1a3-4d98fd441d09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4179 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_CC2"
 		(shape input)
 		(at 123.19 142.24 180)
@@ -4237,28 +4197,6 @@
 			)
 		)
 	)
-	(global_label "STUSB4500_POK2"
-		(shape input)
-		(at 162.56 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d25b7f4-816d-4f85-adb5-4b2ddca13f07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4179 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS_EN_SNK"
 		(shape input)
 		(at 120.65 120.65 180)
@@ -4299,28 +4237,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STUSB4500_ATTACH"
-		(shape input)
-		(at 163.83 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af7c0af9-be4e-4621-98c3-b7bf63d6b2ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
