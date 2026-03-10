@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sch/power.kicad_sch"
+		(property "Sheetfile" "sch/charger/power.kicad_sch"
 			(at -297.18 210.1346 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sch/imu.kicad_sch"
+		(property "Sheetfile" "sch/imu/imu.kicad_sch"
 			(at -297.18 426.0346 0)
 			(effects
 				(font

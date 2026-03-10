@@ -20,9 +20,9 @@ git clone "git@github.com:Fogotcheck/TracTorKi.git"
 │   └── *.kicad_mod
 ├── README.md
 ├── sch
-│   ├── *.kicad_sch
-│   ├── ...
-│   └── *.kicad_sch
+│   ├── ./../*.kicad_sch
+│   ├── ./../...
+│   └── ./../*.kicad_sch
 ├── sym-lib-table
 ├── TracTorKi.kicad_pcb
 ├── TracTorKi.kicad_pro
