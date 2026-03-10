@@ -7926,6 +7926,26 @@
 		)
 		(uuid "fe1a1a16-c7d5-44fe-8e10-bb4b1df8606f")
 	)
+	(label "SRP_P"
+		(at 80.01 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac42f72-0005-4cbf-a5f0-770d052d0330")
+	)
+	(label "SRP_N"
+		(at 80.01 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4757b891-750d-453b-9101-5f7599c70d63")
+	)
 	(global_label "BAT_GND"
 		(shape input)
 		(at 77.47 168.91 180)

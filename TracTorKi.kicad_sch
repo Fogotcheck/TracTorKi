@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at -297.18 430.53)
+		(size 297.18 209.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66dfc33f-cb9b-498d-83e0-7d8dc6239511")
+		(property "Sheetname" "Ethernet"
+			(at -297.18 429.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/ethernet/Ethernet.kicad_sch"
+			(at -297.18 640.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TracTorKi"
+				(path "/1335e999-828f-459f-82af-24a44d7c9a1c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at -297.18 214.63)
 		(size 297.18 210.82)
 		(exclude_from_sim no)

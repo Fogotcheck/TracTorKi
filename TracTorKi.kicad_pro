@@ -637,6 +637,10 @@
     [
       "7b457f61-c4c9-4548-a960-b4e7dbb3be5e",
       "IMU"
+    ],
+    [
+      "66dfc33f-cb9b-498d-83e0-7d8dc6239511",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
