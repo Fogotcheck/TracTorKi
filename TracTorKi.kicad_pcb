@@ -260,7 +260,7 @@
 		(property ki_fp_filters "TSOP*1.65x3.05mm*P0.95mm*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/9edb93ec-16fd-4681-8da0-6b4a89db4eac")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 -1.6)
@@ -1096,7 +1096,7 @@
 		(property ki_fp_filters "*LGA*2.5x2.5mm*P0.65mm*Clockwise*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/7c046253-483e-4bc7-b1d4-741d6f542215")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.35 1.35)
@@ -1706,7 +1706,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/7cefc1ad-0924-45f7-b49b-3e968843743c")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -3181,7 +3181,7 @@
 		(property ki_fp_filters "SOT?323*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/3c8a505d-bb36-4c78-8a99-e8a200b5aa43")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.735 0.14)
@@ -4680,7 +4680,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/5f7e4f05-fb85-4543-aedf-1605916e1c65")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -4962,7 +4962,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/187cae98-c360-4a50-86f1-0c8d00382dee")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -6116,7 +6116,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/d622be24-f0b7-4d12-9efd-68991a933f96")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -6988,7 +6988,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/401139b2-4383-49d5-a58d-0f81788b2d72")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -7716,7 +7716,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/210d6759-af7c-4e24-addc-c5859f6e3b95")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -8011,7 +8011,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/3b2430b3-bdd5-462f-b982-966c28efa1fd")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -8434,7 +8434,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/2af5a227-6a71-4d51-acd4-5cb5a0237a3c")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -8857,7 +8857,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/9e1700a6-ba41-4602-803d-f5d5e7699e76")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -9637,7 +9637,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/9946bfc1-c44c-49f2-9ada-36e75c1f8333")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -10377,7 +10377,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/a8df1afd-77f8-4f80-bc12-c3af9cf55ad7")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -10943,7 +10943,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/627000f7-b388-498f-8c6d-ac80baa9f1f2")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.675 -0.875)
@@ -12436,7 +12436,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/8320ba5f-bdd1-45fa-8446-2e01c6707696")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -12577,7 +12577,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/537422c2-cab0-4cc6-a453-aa397af56097")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -13000,7 +13000,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/7f652786-a506-48fe-98d2-a2eae6530c28")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -13295,7 +13295,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/073d2db8-87c6-4102-98a8-4a7f9ea9d927")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -13731,7 +13731,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/29dbd2f6-9e4d-40b5-a9ea-c2784a9701c6")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -15042,7 +15042,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/223fc989-8952-454d-b939-abeb4a05eedb")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -16329,7 +16329,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/8f4adaf5-15e2-41f9-b3df-33c88e656f45")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -16624,7 +16624,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/1f6b7285-2919-4266-8f1b-79cd64fe3b3b")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -17512,7 +17512,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/6b40b404-aac5-4f46-a262-1cb5c15a1d96")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -17653,7 +17653,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/b94cfc87-1a89-4568-93ae-6857a6369db2")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -17935,7 +17935,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/fd7d1476-1dad-462f-96a4-34d28304a1eb")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -19290,7 +19290,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/8b5e7d45-e2fd-487e-9386-c36d1b71bca6")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.62 2.4)
@@ -20425,7 +20425,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/c0955691-4104-4c09-9f36-f22e9ae04865")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -21051,7 +21051,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/f8ac4ff7-e0a7-45c0-8a60-f730e952e3e4")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -21194,7 +21194,7 @@
 		(property ki_fp_filters "LGA*5.2x3.8mm*P0.5mm*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/144fb732-0e24-44a0-ba1c-4a2e63efa530")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.71 2.01)
@@ -21689,7 +21689,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/7fb2bb5c-db82-4a1e-8c21-bfd0d0b18e78")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.735 0.14)
@@ -22036,7 +22036,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/e3a9d181-229b-482b-8aab-a8e5c6abc399")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.96 -0.66)
@@ -23693,7 +23693,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/4b5052eb-aeda-4be2-a938-ea838116e0a4")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -24142,7 +24142,7 @@
 		(property ki_fp_filters "QFN*4x4mm*P0.5mm*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/548cf3eb-54cf-4e6e-bef8-0ec181b601e3")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -2.11)
@@ -25939,7 +25939,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/15643992-25a2-4fc1-bde4-1e89eebb5157")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -27223,7 +27223,7 @@
 		(property ki_fp_filters "TSOP*1.65x3.05mm*P0.95mm*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/8dd71ca0-30ff-4db1-ae8f-c9b225406cc3")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 -1.6)
@@ -27480,7 +27480,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f6ae810-18c8-4053-b65b-18168172d752/720ebea3-e804-4f21-bcd6-fa6c47bc0e1f")
 		(sheetname "/charger/")
-		(sheetfile "power.kicad_sch")
+		(sheetfile "sch/power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -27762,7 +27762,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b457f61-c4c9-4548-a960-b4e7dbb3be5e/1204ae47-b213-4257-a046-bdb8d99e6c01")
 		(sheetname "/IMU/")
-		(sheetfile "imu.kicad_sch")
+		(sheetfile "sch/imu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
