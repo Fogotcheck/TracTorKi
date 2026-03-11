@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (lib (name "ST_CSP17N40P3X11_240X110X61")(type "KiCad")(uri "${KIPRJMOD}/lib/ST_CSP17N40P3X11_240X110X61.pretty")(options "")(descr ""))
 )

@@ -3,4 +3,5 @@
   (lib (name "bno085")(type "KiCad")(uri "${KIPRJMOD}/lib/bno085.kicad_sym")(options "")(descr ""))
   (lib (name "bq77915")(type "Legacy")(uri "${KIPRJMOD}/lib/bq77915.lib")(options "")(descr ""))
   (lib (name "IS42S16160J-7TLI")(type "KiCad")(uri "${KIPRJMOD}/lib/IS42S16160J-7TLI.kicad_sym")(options "")(descr ""))
+  (lib (name "EMIF06-HSD03F3")(type "KiCad")(uri "${KIPRJMOD}/lib/EMIF06-HSD03F3.kicad_sym")(options "")(descr ""))
 )
