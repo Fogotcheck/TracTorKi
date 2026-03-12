@@ -174,6 +174,48 @@
 		)
 	)
 	(sheet
+		(at -295.91 1083.31)
+		(size 297.18 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95afd035-a2fa-4a8f-9646-34a7b14e2fc0")
+		(property "Sheetname" "TOF"
+			(at -295.91 1082.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/tof/VL53LOx.kicad_sch"
+			(at -295.91 1294.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TracTorKi"
+				(path "/1335e999-828f-459f-82af-24a44d7c9a1c"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at -297.18 645.16)
 		(size 297.18 210.82)
 		(exclude_from_sim no)
