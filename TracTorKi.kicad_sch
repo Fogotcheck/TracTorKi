@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at -297.18 862.33)
+		(size 297.18 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23f450b6-6767-4090-beb6-78191605da44")
+		(property "Sheetname" "Motor"
+			(at -297.18 861.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/motor/Motor.kicad_sch"
+			(at -297.18 1073.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TracTorKi"
+				(path "/1335e999-828f-459f-82af-24a44d7c9a1c"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at -297.18 430.53)
 		(size 297.18 209.55)
 		(exclude_from_sim no)

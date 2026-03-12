@@ -649,6 +649,10 @@
     [
       "68d85c54-a159-4a81-bfbb-e1bca3ce2fb7",
       "SDCard"
+    ],
+    [
+      "23f450b6-6767-4090-beb6-78191605da44",
+      "Motor"
     ]
   ],
   "text_variables": {}
