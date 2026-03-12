@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 0 214.63)
+		(size 297.18 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3707a4c1-5603-4ce8-9306-a06416257074")
+		(property "Sheetname" "MCU"
+			(at 0 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/mcu/stm23H743zit6.kicad_sch"
+			(at 0 426.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TracTorKi"
+				(path "/1335e999-828f-459f-82af-24a44d7c9a1c"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at -297.18 430.53)
 		(size 297.18 209.55)
 		(exclude_from_sim no)
