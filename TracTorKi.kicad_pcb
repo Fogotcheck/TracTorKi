@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -23721,7 +23760,7 @@
 		(property "Reference" "J10"
 			(at 5 -3.26 0)
 			(layer "F.SilkS")
-			(uuid "6e9f4003-1a07-49ad-8086-ea66c2f0683c")
+			(uuid "d6ebb87b-6319-43b2-bad3-38f8934aac58")
 			(effects
 				(font
 					(size 1 1)
@@ -23732,7 +23771,7 @@
 		(property "Value" "Conn_01x06_Pin"
 			(at 5 10.9 0)
 			(layer "F.Fab")
-			(uuid "a8e0b4aa-2e61-4acd-9200-088ead2cdc58")
+			(uuid "59aa9a20-31d1-492a-9f86-a7c51c7d4b71")
 			(effects
 				(font
 					(size 1 1)
@@ -23744,7 +23783,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10f5d01e-f166-4f34-9aa8-089e53c6dc60")
+			(uuid "5f5e6963-e468-4a96-89e8-9d488ad44bde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23756,7 +23795,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a887ff04-2e3e-42bd-be40-d14dede87c4d")
+			(uuid "d0974af0-b58e-4a94-9d27-667e7f86779b")
 			(effects
 				(font
 					(size 1.27 1.27)
