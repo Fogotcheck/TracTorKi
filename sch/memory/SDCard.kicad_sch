@@ -5456,6 +5456,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "SDCARD"
+		(members "D[0..4]" "CMD" "CLK")
+	)
 	(text "same line"
 		(exclude_from_sim no)
 		(at 25.146 17.78 0)
@@ -5774,6 +5777,16 @@
 		)
 		(uuid "29d0d9d9-8dfd-472b-abd7-d3bad34e5cbb")
 	)
+	(bus
+		(pts
+			(xy 49.53 62.23) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf49a6b-689d-45b3-91e1-811a4d5344af")
+	)
 	(wire
 		(pts
 			(xy 80.01 127) (xy 87.63 127)
@@ -5984,16 +5997,6 @@
 		)
 		(uuid "62769ca5-5367-4878-b804-8dcbbf4a55d4")
 	)
-	(bus
-		(pts
-			(xy 49.53 62.23) (xy 49.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63cdc684-75ae-4661-8334-50a1bea99289")
-	)
 	(wire
 		(pts
 			(xy 73.66 138.43) (xy 95.25 138.43)
@@ -6153,6 +6156,16 @@
 			(type default)
 		)
 		(uuid "97ff9de8-84df-4f55-8ea9-7e9be1f6fb97")
+	)
+	(bus
+		(pts
+			(xy 46.99 62.23) (xy 49.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9813621c-8290-4cc0-ad7d-9892e4da58cd")
 	)
 	(wire
 		(pts
@@ -6534,7 +6547,7 @@
 		)
 		(uuid "faa5b483-3a90-4201-8702-19d5f2e787e8")
 	)
-	(label "SDCARD_CLK"
+	(label "SDCARD.CLK"
 		(at 93.98 95.25 0)
 		(effects
 			(font
@@ -6544,7 +6557,7 @@
 		)
 		(uuid "38e2465d-c663-4abe-b662-61e08352a2a0")
 	)
-	(label "SDCARD_D0"
+	(label "SDCARD.D0"
 		(at 93.98 105.41 0)
 		(effects
 			(font
@@ -6554,7 +6567,7 @@
 		)
 		(uuid "5de8b1d1-80e2-4233-af91-b166eac3a7bd")
 	)
-	(label "SDCARD_CMD"
+	(label "SDCARD.CMD"
 		(at 93.98 85.09 0)
 		(effects
 			(font
@@ -6564,7 +6577,7 @@
 		)
 		(uuid "999e8416-7d11-4cda-b06f-36f029c5e709")
 	)
-	(label "SDCARD_D3"
+	(label "SDCARD.D3"
 		(at 93.98 74.93 0)
 		(effects
 			(font
@@ -6574,7 +6587,7 @@
 		)
 		(uuid "9c790a04-ebcf-4be6-93fa-94bf18e921bb")
 	)
-	(label "SDCARD_D2"
+	(label "SDCARD.D2"
 		(at 93.98 64.77 0)
 		(effects
 			(font
@@ -6584,7 +6597,7 @@
 		)
 		(uuid "c4ff4709-763a-48bc-80c0-41d3f47e078f")
 	)
-	(label "SDCARD_D1"
+	(label "SDCARD.D1"
 		(at 93.98 115.57 0)
 		(effects
 			(font
@@ -6593,6 +6606,28 @@
 			(justify left bottom)
 		)
 		(uuid "de118b40-30cc-47f5-935e-090f67dcb6b0")
+	)
+	(global_label "SDCARD{SDCARD}"
+		(shape input)
+		(at 46.99 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d2fcfe6-1cd0-4d54-9deb-935b218dd739")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.5552 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SDCARD_DET"
 		(shape input)
