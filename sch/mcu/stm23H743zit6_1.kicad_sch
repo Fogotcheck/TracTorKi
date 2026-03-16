@@ -3966,6 +3966,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 57.15) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0685a34f-b26e-46b1-a6d9-a7902abdaece")
+	)
+	(wire
+		(pts
 			(xy 184.15 64.77) (xy 191.77 64.77)
 		)
 		(stroke
@@ -4176,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 80.01) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366829c9-0026-48ba-99a0-f8396864040e")
+	)
+	(wire
+		(pts
 			(xy 184.15 72.39) (xy 191.77 72.39)
 		)
 		(stroke
@@ -4183,6 +4203,16 @@
 			(type default)
 		)
 		(uuid "396025a5-212f-49b9-b407-10b78498b9a0")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa81c37-b421-43b0-8a3c-f80fdadb44b9")
 	)
 	(wire
 		(pts
@@ -4286,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 243.84 95.25)
+			(xy 243.84 87.63) (xy 243.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4303,6 +4333,16 @@
 			(type default)
 		)
 		(uuid "609d3ac6-9b6d-42e9-8000-d1dc94753d5f")
+	)
+	(wire
+		(pts
+			(xy 168.91 77.47) (xy 228.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687253b0-6082-42ce-8405-e900de5a1318")
 	)
 	(wire
 		(pts
@@ -4396,6 +4436,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81914944-1a69-46b3-9e2b-50d783d90c7d")
+	)
+	(wire
+		(pts
 			(xy 50.8 120.65) (xy 107.95 120.65)
 		)
 		(stroke
@@ -4416,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 97.79) (xy 262.89 86.36)
+			(xy 262.89 97.79) (xy 262.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4726,6 +4776,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 82.55) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fb0b58-bb0c-421c-850b-57c41c3f7bab")
+	)
+	(wire
+		(pts
 			(xy 184.15 57.15) (xy 191.77 57.15)
 		)
 		(stroke
@@ -4836,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 262.89 86.36)
+			(xy 243.84 87.63) (xy 262.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5342,6 +5402,28 @@
 			)
 		)
 	)
+	(global_label "VL53LOx_INT_4"
+		(shape input)
+		(at 50.8 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "357a790b-4eb8-4f8c-a5c9-c6987297910f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.8448 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTS7960_IS_L1_TO_MCU"
 		(shape input)
 		(at 50.8 113.03 180)
@@ -5377,6 +5459,28 @@
 		(uuid "5d005b37-12d8-436a-988f-d2a70fee50a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.1998 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VL53LOx_XSHUT_2"
+		(shape input)
+		(at 228.6 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "682c60e6-3888-4516-92e1-8c2c9fb643b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.6999 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,6 +5534,28 @@
 			)
 		)
 	)
+	(global_label "VL53LOx_XSHUT_4"
+		(shape input)
+		(at 228.6 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94828a6-f7d4-4a7a-921a-4c408b3e5ae4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.6999 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BQ25798_QON"
 		(shape input)
 		(at 228.6 67.31 0)
@@ -5452,6 +5578,28 @@
 			)
 		)
 	)
+	(global_label "VL53LOx_XSHUT_3"
+		(shape input)
+		(at 228.6 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad85b7a1-02f3-4a68-bad9-2cd5418a80f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.6999 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_BOOT0"
 		(shape input)
 		(at 171.45 107.95 0)
@@ -5465,6 +5613,28 @@
 		(uuid "c6793d9c-6e83-4f82-8262-9554cad18f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5628 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VL53LOx_XSHUT_1"
+		(shape input)
+		(at 228.6 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de8d993e-0980-44e1-9f1e-5c41aed6f1f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.6999 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,6 +5679,28 @@
 		(uuid "f1f83dff-58b7-4837-995a-a2b6dea47371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.2574 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VL53LOx_INT_3"
+		(shape input)
+		(at 50.8 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9af5b0e-4875-4e76-adbd-4e71bcb38475")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.8448 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
