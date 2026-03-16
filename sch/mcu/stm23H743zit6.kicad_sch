@@ -4090,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5634be6f-37d9-4efb-aeaf-9b2152450d6f")
+	)
+	(wire
+		(pts
 			(xy 189.23 81.28) (xy 193.04 81.28)
 		)
 		(stroke
@@ -4147,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "5e8e3a37-8484-4492-83b0-e91e536e0b92")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 228.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9e4b8d-a48c-4f48-aeae-d284d3f0d2bd")
 	)
 	(wire
 		(pts
@@ -4966,6 +4986,28 @@
 			)
 		)
 	)
+	(global_label "LED_G"
+		(shape input)
+		(at 130.81 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eba04b8-d80f-48b9-8859-c98bc1343d1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1401 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTS7960_PWM_L2_TO_MCU"
 		(shape input)
 		(at 63.5 106.68 180)
@@ -5089,6 +5131,28 @@
 		(uuid "36b9a370-3a47-4fc8-b8d1-952e56fb6ab0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.825 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_R"
+		(shape input)
+		(at 228.6 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b4539a6-d467-4731-8c28-b6c2c50f6721")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.2699 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,6 +5576,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_B"
+		(shape input)
+		(at 228.6 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce99bca8-768d-4d01-95fa-c5a364d76b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.2699 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

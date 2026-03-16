@@ -299,6 +299,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 0 430.53)
+		(size 297.18 210.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e31d3348-97e5-4762-b853-bd9b1795f02d")
+		(property "Sheetname" "LED"
+			(at 0 429.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/leds/LED.kicad_sch"
+			(at 0 641.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TracTorKi"
+				(path "/1335e999-828f-459f-82af-24a44d7c9a1c"
+					(page "16")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
