@@ -3986,6 +3986,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 113.03) (xy 107.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f661f57-ab3c-46f9-b7b2-507245e6c9ab")
+	)
+	(wire
+		(pts
 			(xy 82.55 107.95) (xy 90.17 107.95)
 		)
 		(stroke
@@ -4346,6 +4356,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 118.11) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749eff86-e193-4ca3-ab66-f38c0846f64d")
+	)
+	(wire
+		(pts
 			(xy 254 111.76) (xy 254 113.03)
 		)
 		(stroke
@@ -4373,6 +4393,16 @@
 			(type default)
 		)
 		(uuid "7ccccac2-302b-4fc1-81d1-4a9c10c6ab3c")
+	)
+	(wire
+		(pts
+			(xy 50.8 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81aee7cf-2ff2-4031-be38-81ab8a31cbc8")
 	)
 	(wire
 		(pts
@@ -4513,6 +4543,16 @@
 			(type default)
 		)
 		(uuid "9933956c-50d6-4412-b0ff-e83a849d07bd")
+	)
+	(wire
+		(pts
+			(xy 50.8 115.57) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b370c87-ba3d-4ae2-b05b-72601c4f60e5")
 	)
 	(wire
 		(pts
@@ -5214,6 +5254,50 @@
 		)
 		(uuid "f120723e-0e53-4577-9b3f-f7d5a58160b3")
 	)
+	(global_label "BTS7960_IS_R1_TO_MCU"
+		(shape input)
+		(at 50.8 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b1179c8-6f51-4a9b-8b40-5270178d4fbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0155 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_IS_R2_TO_MCU"
+		(shape input)
+		(at 50.8 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "192945a2-8dec-4bb9-9808-e3e34903ff12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0155 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_RESET"
 		(shape input)
 		(at 207.01 125.73 180)
@@ -5249,6 +5333,28 @@
 		(uuid "2d3346ae-9465-4255-857e-be74b665f7b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.2963 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_IS_L1_TO_MCU"
+		(shape input)
+		(at 50.8 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40000522-a42b-454c-a0ea-2b60c77a3b55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.2574 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,6 +5487,28 @@
 		(uuid "e215600c-71b4-4f89-ac42-6cd7f33482b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.674 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_IS_L2_TO_MCU"
+		(shape input)
+		(at 50.8 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1f83dff-58b7-4837-995a-a2b6dea47371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.2574 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2157,6 +2157,12 @@
 		(uuid "1b3e80a1-cf43-4c99-abb5-3d7d650b3d02")
 	)
 	(junction
+		(at 227.33 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d471c98-89bd-4ea0-b50f-4b649467db21")
+	)
+	(junction
 		(at 173.99 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2287,6 +2293,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7cb94a9-7d84-446d-9a7d-22ee337e8a9b")
+	)
+	(junction
+		(at 228.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a32e4f-1252-4e20-914d-8ae651683171")
 	)
 	(junction
 		(at 54.61 86.36)
@@ -2550,6 +2562,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d0e02f-8885-49fa-9019-4f7c7a004510")
+	)
+	(wire
+		(pts
 			(xy 44.45 20.32) (xy 81.28 20.32)
 		)
 		(stroke
@@ -2587,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "1e27848f-8a2f-4bf2-aaae-8f34015f6dc0")
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 245.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f36066f-44f7-4717-84de-4bb72c60438f")
 	)
 	(wire
 		(pts
@@ -4364,6 +4396,28 @@
 			)
 		)
 	)
+	(global_label "BTS7960_IS_R2_TO_MCU"
+		(shape input)
+		(at 245.11 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3afa71a8-7ed1-42a0-8e41-b5ceb7950838")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8945 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTS7960_IS_R2"
 		(shape input)
 		(at 252.73 60.96 0)
@@ -4509,6 +4563,28 @@
 		(uuid "7d60fb12-3511-43d5-adad-864f821c030a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 271.3178 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_IS_L2_TO_MCU"
+		(shape input)
+		(at 245.11 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "886615b8-b454-4ea1-94c5-117aa64a3b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6526 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3940,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 102.87 111.76)
+			(xy 63.5 111.76) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4007,6 +4007,16 @@
 			(type default)
 		)
 		(uuid "32bae190-cf2f-4e2b-b0b0-c1823a2c0d65")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b6664e-0ab2-41f4-8d3d-715ec8c46aa9")
 	)
 	(wire
 		(pts
@@ -4180,7 +4190,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 114.3 101.6)
+			(xy 63.5 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af55d41-8f9c-403b-bf03-bee5abc39a1c")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4270,6 +4290,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f50e6f5-86a8-43dd-b5c4-fd9242e73455")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901f674e-d21c-4693-8549-ee2842c7c8bd")
+	)
+	(wire
+		(pts
 			(xy 175.26 81.28) (xy 181.61 81.28)
 		)
 		(stroke
@@ -4330,13 +4370,33 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 109.22) (xy 102.87 109.22)
+			(xy 63.5 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a46dbb-5c9f-47ad-9e7e-b58d03745ba0")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a46174c4-0aa1-4222-b144-a2ed6bd582c9")
+	)
+	(wire
+		(pts
+			(xy 63.5 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48a5919-c49d-4c81-9b76-09c91075ceb2")
 	)
 	(wire
 		(pts
@@ -4390,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 114.3) (xy 102.87 114.3)
+			(xy 63.5 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4450,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e9eede-bf6b-489e-bbb4-10f593fe83b6")
+	)
+	(wire
+		(pts
 			(xy 64.77 166.37) (xy 68.58 166.37)
 		)
 		(stroke
@@ -4477,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "d0e8f4fe-b9bf-49a0-8f8f-a9cc5a40ae63")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d159f1c9-c76d-4cf2-a697-95e34f7e2277")
 	)
 	(wire
 		(pts
@@ -4804,7 +4884,7 @@
 	)
 	(global_label "LAN8742A_ETH_TXD0"
 		(shape input)
-		(at 60.96 111.76 180)
+		(at 63.5 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4814,7 +4894,7 @@
 		)
 		(uuid "027955f3-323c-40f0-bcb2-29b3cb001941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.5621 111.76 0)
+			(at 41.1021 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,6 +4926,28 @@
 			)
 		)
 	)
+	(global_label "BTS7960_PWM_L2_TO_MCU"
+		(shape input)
+		(at 63.5 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1205765d-b09f-4b71-b9ab-c375ad2180d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.5989 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BNO085_MOSI"
 		(shape input)
 		(at 228.6 99.06 0)
@@ -4864,6 +4966,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_EN_L1_TO_MCU"
+		(shape input)
+		(at 63.5 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26667b7d-7e8e-48aa-b33f-5ceda12b6ab0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.2922 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4958,7 +5082,7 @@
 	)
 	(global_label "LAN8742A_ETH_NRTS"
 		(shape input)
-		(at 60.96 101.6 180)
+		(at 63.5 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4968,7 +5092,7 @@
 		)
 		(uuid "4dfee7fb-146c-45a6-97a2-e156db1f38f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.4411 101.6 0)
+			(at 40.9811 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,6 +5142,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_PWM_R2_TO_MCU"
+		(shape input)
+		(at 63.5 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b813784-c08f-4b1c-9712-d99ebf094d87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.357 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5156,7 +5302,7 @@
 	)
 	(global_label "LAN8742A_ETH_TXD1"
 		(shape input)
-		(at 60.96 114.3 180)
+		(at 63.5 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5166,7 +5312,7 @@
 		)
 		(uuid "aa98bc42-89e6-4c93-8311-155c2bc267eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.5621 114.3 0)
+			(at 41.1021 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,9 +5366,31 @@
 			)
 		)
 	)
+	(global_label "BTS7960_EN_L2_TO_MCU"
+		(shape input)
+		(at 63.5 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9c8a50e-9b39-4708-bb6a-665a08487bc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.2922 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LAN8742A_ETH_TXEN"
 		(shape input)
-		(at 60.96 109.22 180)
+		(at 63.5 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5232,7 +5400,51 @@
 		)
 		(uuid "cbba590c-f3c5-4e09-a903-68bac7fccd6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.5621 109.22 0)
+			(at 41.1021 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_EN_R1_TO_MCU"
+		(shape input)
+		(at 63.5 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc23d503-df36-4a63-88a4-8dfe9b9c7eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.0503 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_EN_R2_TO_MCU"
+		(shape input)
+		(at 63.5 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3188813-a1cc-47be-a873-d0ac8a51e2c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.0503 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,6 +5498,28 @@
 			)
 		)
 	)
+	(global_label "BTS7960_PWM_R1_TO_MCU"
+		(shape input)
+		(at 63.5 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1de6b4c-dce4-47c3-bc49-e6b4c2b28f2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.357 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_SWD_CLK"
 		(shape input)
 		(at 111.76 73.66 180)
@@ -5326,6 +5560,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTS7960_PWM_L1_TO_MCU"
+		(shape input)
+		(at 63.5 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9848233-bebd-4e93-9316-b3b095011437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.5989 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
