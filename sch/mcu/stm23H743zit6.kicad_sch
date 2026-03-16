@@ -3840,6 +3840,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032adaef-3bb0-4d79-9640-fd0718bd1864")
+	)
+	(wire
+		(pts
 			(xy 252.73 88.9) (xy 260.35 88.9)
 		)
 		(stroke
@@ -4000,6 +4010,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c4e5a6-2fd8-4278-8ebc-b7c9a81e31a7")
+	)
+	(wire
+		(pts
 			(xy 175.26 45.72) (xy 181.61 45.72)
 		)
 		(stroke
@@ -4100,6 +4120,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e431a57-979f-4e19-a272-74e60b29a443")
+	)
+	(wire
+		(pts
 			(xy 175.26 63.5) (xy 193.04 63.5)
 		)
 		(stroke
@@ -4190,6 +4220,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 58.42) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855138ce-0626-4fde-854d-82b4a06eb2c3")
+	)
+	(wire
+		(pts
 			(xy 175.26 40.64) (xy 228.6 40.64)
 		)
 		(stroke
@@ -4260,6 +4300,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3231dc-babf-465f-b1a6-7fb168890a6d")
+	)
+	(wire
+		(pts
 			(xy 245.11 76.2) (xy 248.92 76.2)
 		)
 		(stroke
@@ -4307,6 +4357,16 @@
 			(type default)
 		)
 		(uuid "b7db3131-4b5e-4a0f-9765-1d74e2147e40")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96357fb-3a77-4a3d-9652-a0890a69c22c")
 	)
 	(wire
 		(pts
@@ -4670,6 +4730,28 @@
 			)
 		)
 	)
+	(global_label "BQ25798_STAT"
+		(shape input)
+		(at 63.5 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "022cf53a-34fa-4fe0-91dd-9d2b766c0be9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.6659 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LAN8742A_ETH_TXD0"
 		(shape input)
 		(at 60.96 111.76 180)
@@ -4727,6 +4809,72 @@
 		(uuid "2a9d044b-0867-4a48-93f7-4cd91b9884fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.3003 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STUSB4500_RST"
+		(shape input)
+		(at 228.6 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36b9a370-3a47-4fc8-b8d1-952e56fb6ab0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.825 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BQ25798_CE"
+		(shape input)
+		(at 228.6 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cd4a97d-91c6-4cec-82c8-5c1895ce51f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.6198 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STUSB4500_INT"
+		(shape input)
+		(at 228.6 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e525025-c94c-4edf-9ebd-f8663a30c0ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.2808 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,6 +5038,28 @@
 			)
 		)
 	)
+	(global_label "POWER_I2C_SDA"
+		(shape input)
+		(at 228.6 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab06df8d-53e4-456d-84b5-8ce60544453d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.6437 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_SWD_CLK"
 		(shape input)
 		(at 68.58 166.37 0)
@@ -4991,6 +5161,28 @@
 		(uuid "e5393a52-ec33-4255-8ec6-5d9482cb0eec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.6885 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_I2C_SCL"
+		(shape input)
+		(at 228.6 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa1dc0b2-6aa5-405f-b0ce-00b634c3f271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.5832 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
