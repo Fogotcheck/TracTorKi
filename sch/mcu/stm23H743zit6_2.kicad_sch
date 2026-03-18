@@ -3907,22 +3907,10 @@
 		(uuid "a492c867-3e39-4b4b-9864-5b7b7e8d496d")
 	)
 	(junction
-		(at 207.01 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af09de5b-49d5-4936-9012-8da8d0c58299")
-	)
-	(junction
 		(at 39.37 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b24b31b1-4065-4e99-b96f-1d99a2f5766e")
-	)
-	(junction
-		(at 191.77 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54ca03a-4777-43fa-9d18-acd77ad4d6d6")
 	)
 	(junction
 		(at 39.37 63.5)
@@ -4186,16 +4174,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 118.11) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21cfc470-1ec4-4550-8070-4b4b5cac05c1")
-	)
-	(wire
-		(pts
 			(xy 163.83 66.04) (xy 163.83 67.31)
 		)
 		(stroke
@@ -4256,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 118.11) (xy 207.01 118.11)
+			(xy 191.77 118.11) (xy 215.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4586,16 +4564,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 118.11) (xy 207.01 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d92679a-1be7-4c69-a52d-a8bdcb5f8e7b")
-	)
-	(wire
-		(pts
 			(xy 191.77 128.27) (xy 191.77 129.54)
 		)
 		(stroke
@@ -4773,16 +4741,6 @@
 			(type default)
 		)
 		(uuid "954c3021-1100-43ea-a6f3-40a81ccce382")
-	)
-	(wire
-		(pts
-			(xy 207.01 129.54) (xy 207.01 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96317520-861d-4c2a-8e5f-a2cd99556028")
 	)
 	(wire
 		(pts
@@ -5213,16 +5171,6 @@
 			(type default)
 		)
 		(uuid "cf90865d-3ad8-47f5-99f3-d208d6d2ea4d")
-	)
-	(wire
-		(pts
-			(xy 191.77 129.54) (xy 207.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cffd4652-0323-438e-899d-91c0db6a00be")
 	)
 	(wire
 		(pts
@@ -9204,76 +9152,6 @@
 			(project ""
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/3707a4c1-5603-4ce8-9306-a06416257074/29b95b4e-abe9-438a-8534-a5e809e28137"
 					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 207.01 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f762e864-71a0-497e-b19e-79c99ea4e736")
-		(property "Reference" "C127"
-			(at 210.82 122.3009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 210.82 124.8409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_HandSolder"
-			(at 207.9752 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 207.01 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "148d485b-f192-4bf4-b485-f07ae8987f5d")
-		)
-		(pin "1"
-			(uuid "cca94e62-cad1-4bca-bc0f-5c3cdc92510e")
-		)
-		(instances
-			(project "TracTorKi"
-				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/3707a4c1-5603-4ce8-9306-a06416257074/29b95b4e-abe9-438a-8534-a5e809e28137"
-					(reference "C127")
 					(unit 1)
 				)
 			)
