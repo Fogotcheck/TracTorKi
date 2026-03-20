@@ -4092,7 +4092,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 19.05) (xy 52.07 19.05)
+			(xy 38.1 20.32) (xy 53.34 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4130,6 +4130,16 @@
 		)
 		(uuid "146c6cbf-4f68-4cdd-ab28-c576b5296cf8")
 	)
+	(bus
+		(pts
+			(xy 35.56 22.9616) (xy 47.5488 22.9616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f7d71-39f1-49f5-b41c-f86f3c231f88")
+	)
 	(wire
 		(pts
 			(xy 95.25 119.38) (xy 114.3 119.38)
@@ -4142,7 +4152,7 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 16.51) (xy 52.07 16.51)
+			(xy 43.18 17.78) (xy 54.61 17.78)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 114.3 43.18)
+			(xy 91.44 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4182,16 +4192,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 102.87 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e6e851-d6ca-4d6b-8c1e-ce88846ff377")
-	)
-	(wire
-		(pts
 			(xy 175.26 38.1) (xy 181.61 38.1)
 		)
 		(stroke
@@ -4202,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 114.3 40.64)
+			(xy 93.98 40.64) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4472,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 114.3 101.6)
+			(xy 91.44 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4482,13 +4482,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 48.26) (xy 228.6 48.26)
+			(xy 175.26 48.26) (xy 215.9 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7233ced1-8f23-40f4-8fa2-ad0e7607fe7d")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727417ec-8efd-4782-a10a-4b0b3b4a4f51")
 	)
 	(wire
 		(pts
@@ -4532,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 40.64) (xy 228.6 40.64)
+			(xy 175.26 40.64) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4542,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 228.6 50.8)
+			(xy 175.26 50.8) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4600,6 +4610,16 @@
 		)
 		(uuid "91edeec2-f29c-41fb-bab5-673dc36258cc")
 	)
+	(bus
+		(pts
+			(xy 35.56 22.86) (xy 35.56 22.9616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943868d1-2e3c-4fd6-b7e8-b9f6d61fd426")
+	)
 	(wire
 		(pts
 			(xy 134.62 165.1) (xy 134.62 163.83)
@@ -4612,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 114.3 55.88)
+			(xy 93.98 55.88) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 102.87 109.22)
+			(xy 91.44 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 102.87 114.3)
+			(xy 91.44 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5080,6 +5100,46 @@
 		)
 		(uuid "2d077dee-5def-45b2-aa63-d1d4aaa3f906")
 	)
+	(label "ETH.LAN8742A_RXD0"
+		(at 215.9 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37690f2b-cd9b-48e9-95e3-c43fc62c7c37")
+	)
+	(label "ETH.LAN8742A_MDIO"
+		(at 91.44 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40b3c285-2c37-4166-8838-0daec1565346")
+	)
+	(label "ETH.LAN8742A_CRS_DV"
+		(at 93.98 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58509193-903b-458a-a1a0-da8b3f208bc0")
+	)
+	(label "ETH.LAN8742A_TXD1"
+		(at 91.44 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ddfd02f-5972-4cdf-9046-d3045bb4a0a2")
+	)
 	(label "SDCARD.D3"
 		(at 193.04 66.04 0)
 		(effects
@@ -5110,6 +5170,16 @@
 		)
 		(uuid "7cee5c83-00c3-44ee-8094-837903300d6f")
 	)
+	(label "ETH.LAN8742A_REF_CLK"
+		(at 93.98 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d1f03f-001a-4156-ba27-2388db0a474e")
+	)
 	(label "SDCARD.D0"
 		(at 193.04 58.42 0)
 		(effects
@@ -5119,6 +5189,16 @@
 			(justify left bottom)
 		)
 		(uuid "a4df04df-7e4f-4298-a604-ff7f5948ce15")
+	)
+	(label "ETH.LAN8742A_TXD0"
+		(at 91.44 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b464c95f-41b0-4170-95f4-efc2ff249ca6")
 	)
 	(label "SDRAM.IS42S16160J_DQ14"
 		(at 193.04 104.14 0)
@@ -5139,6 +5219,26 @@
 			(justify left bottom)
 		)
 		(uuid "d0a0f93d-0b82-48d5-9fca-ce494c45d941")
+	)
+	(label "ETH.LAN8742A_MDC"
+		(at 215.9 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1199908-37ac-41a3-9baf-27f8b37cc2ea")
+	)
+	(label "ETH.LAN8742A_TXEN"
+		(at 91.44 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d991c680-88db-478a-8b86-382535a9217f")
 	)
 	(label "SDRAM.IS42S16160J_DQ1"
 		(at 193.04 119.38 0)
@@ -5180,6 +5280,16 @@
 		)
 		(uuid "f261f24b-984b-466d-8b51-ca963bfd3b16")
 	)
+	(label "ETH.LAN8742A_RXD1"
+		(at 215.9 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3817717-d723-4044-9e49-c39ded43193e")
+	)
 	(label "SDRAM.IS42S16160J_DQ15"
 		(at 193.04 106.68 0)
 		(effects
@@ -5190,27 +5300,15 @@
 		)
 		(uuid "f5220620-cdb4-44e1-b41c-24661a7e0b2e")
 	)
-	(global_label "LAN8742A_ETH_MDIO"
-		(shape input)
-		(at 63.5 43.18 180)
-		(fields_autoplaced yes)
+	(label "ETH.LAN8742A_NRST"
+		(at 91.44 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "0003ba29-d953-4762-95e1-3f430f9fc51f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.102 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "fbbab634-57dd-4239-ade4-b54a5b4fb5ab")
 	)
 	(global_label "BQ25798_STAT"
 		(shape input)
@@ -5230,50 +5328,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LAN8742A_ETH_TXD0"
-		(shape input)
-		(at 63.5 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "027955f3-323c-40f0-bcb2-29b3cb001941")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.1021 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LAN8742A_ETH_RXD0"
-		(shape input)
-		(at 228.6 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "046006b1-e85b-4fbc-a584-0f9dd09b23e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.3003 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5366,24 +5420,24 @@
 			)
 		)
 	)
-	(global_label "LAN8742A_ETH_RXD1"
+	(global_label "ETH{LAN8742A}"
 		(shape input)
-		(at 228.6 50.8 0)
+		(at 35.56 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2a9d044b-0867-4a48-93f7-4cd91b9884fa")
+		(uuid "2eaa03c6-2922-46d8-bf7b-f91e87d2bed5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.3003 50.8 0)
+			(at 18.0605 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5542,31 +5596,9 @@
 			)
 		)
 	)
-	(global_label "LAN8742A_ETH_NRTS"
-		(shape input)
-		(at 63.5 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4dfee7fb-146c-45a6-97a2-e156db1f38f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.9811 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDCARD{SDCARD}"
 		(shape input)
-		(at 36.83 19.05 180)
+		(at 38.1 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5576,7 +5608,7 @@
 		)
 		(uuid "52559f1a-3dc7-491c-b28c-530184708eb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3952 19.05 0)
+			(at 18.6652 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,31 +5772,9 @@
 			)
 		)
 	)
-	(global_label "LAN8742A_ETH_REF_CLK"
-		(shape input)
-		(at 63.5 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2558be7-933f-44fc-84d6-7186657848f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.7154 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM{IS42S16160J}"
 		(shape input)
-		(at 40.64 16.51 180)
+		(at 43.18 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5774,29 +5784,7 @@
 		)
 		(uuid "aa341eea-e184-40e5-8764-36879ee771e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.214 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LAN8742A_ETH_TXD1"
-		(shape input)
-		(at 63.5 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa98bc42-89e6-4c93-8311-155c2bc267eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.1021 114.3 0)
+			(at 19.754 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,28 +5860,6 @@
 			)
 		)
 	)
-	(global_label "LAN8742A_ETH_TXEN"
-		(shape input)
-		(at 63.5 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbba590c-f3c5-4e09-a903-68bac7fccd6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.1021 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BTS7960_EN_R1_TO_MCU"
 		(shape input)
 		(at 63.5 63.5 180)
@@ -5956,28 +5922,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LAN8742A_ETH_MDC"
-		(shape input)
-		(at 228.6 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6da99ce-f9a3-4de6-805b-b083a9fa2ba0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.3327 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6176,28 +6120,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LAN8742A_ETH_CRS_DV"
-		(shape input)
-		(at 63.5 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa81124e-96e0-47e7-9d87-ed41a1c2bbfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.683 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

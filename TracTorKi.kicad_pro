@@ -475,6 +475,21 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LAN8742A_NET",
+        "pcb_color": "rgb(7, 255, 37)",
+        "priority": 0,
+        "schematic_color": "rgb(7, 255, 37)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -484,7 +499,7 @@
         "microvia_drill": 0.1,
         "name": "SDRAM_NET",
         "pcb_color": "rgb(151, 0, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(152, 9, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -501,6 +516,10 @@
       {
         "netclass": "SDRAM_NET",
         "pattern": "SDRAM.*"
+      },
+      {
+        "netclass": "LAN8742A_NET",
+        "pattern": "ETH.*"
       }
     ]
   },
