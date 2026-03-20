@@ -4616,7 +4616,7 @@
 			(uuid "b9febacf-1d07-4121-8928-031997d9b4b4")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "R1")
 					(unit 1)
@@ -4963,7 +4963,7 @@
 			(uuid "fc63a057-69d3-4fe1-9bef-c9dd21b34b2a")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "U2")
 					(unit 1)
@@ -5029,7 +5029,7 @@
 			(uuid "5f78d8d3-1fd5-4d55-8de8-d8678e11d672")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "#PWR08")
 					(unit 1)
@@ -5511,7 +5511,7 @@
 			(uuid "aa6b2e01-e063-41a3-8d59-8f8eea1a62db")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "C1")
 					(unit 1)
@@ -5585,7 +5585,7 @@
 			(uuid "86497fd8-f3d1-4ea1-a9d6-efb5f7982f5a")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "D1")
 					(unit 1)
@@ -5692,7 +5692,7 @@
 			(uuid "aca0418b-94db-4b9d-a23b-c16d1ad99891")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "J1")
 					(unit 1)
@@ -6005,7 +6005,7 @@
 			(uuid "0d5947f1-e437-4b8d-9025-af8ceecc711d")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "Q1")
 					(unit 1)
@@ -6342,7 +6342,7 @@
 			(uuid "18a9403e-d1d2-4847-9912-20edbd9c0baf")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "#PWR05")
 					(unit 1)
@@ -6411,7 +6411,7 @@
 			(uuid "60fbf09a-645c-4483-8c1e-767fc270c846")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752"
 					(reference "D2")
 					(unit 1)

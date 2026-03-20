@@ -1026,7 +1026,7 @@
 			(uuid "063c01c2-f101-4bf7-9bec-1fbc8e5e0f3b")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/e31d3348-97e5-4762-b853-bd9b1795f02d"
 					(reference "R40")
 					(unit 1)
@@ -1236,7 +1236,7 @@
 			(uuid "8df353a2-d2e1-49ce-bf13-714fe41799df")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/e31d3348-97e5-4762-b853-bd9b1795f02d"
 					(reference "D5")
 					(unit 1)

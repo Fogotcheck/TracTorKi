@@ -4235,7 +4235,7 @@
 			(uuid "374c4365-5c58-4454-81d5-fa19db1587d5")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752/e42e17fc-7eee-42cc-86e9-ccdfdf420c40"
 					(reference "C29")
 					(unit 1)

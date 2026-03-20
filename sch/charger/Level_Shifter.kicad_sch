@@ -2262,7 +2262,7 @@
 			(uuid "07d02e1f-5643-47c3-b069-b04b24bca21a")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752/210f28ab-0921-4817-8262-dbb486a85a4d"
 					(reference "R38")
 					(unit 1)
@@ -2690,7 +2690,7 @@
 			(uuid "13e46e37-fb5c-4d9d-9770-6d4420e46fd4")
 		)
 		(instances
-			(project ""
+			(project "TracTorKi"
 				(path "/1335e999-828f-459f-82af-24a44d7c9a1c/0f6ae810-18c8-4053-b65b-18168172d752/210f28ab-0921-4817-8262-dbb486a85a4d"
 					(reference "U19")
 					(unit 1)
