@@ -6308,6 +6308,16 @@
 		)
 		(uuid "4d96dd87-01ed-4979-a8f7-aea8e94b03a5")
 	)
+	(text "нужно проверить"
+		(exclude_from_sim no)
+		(at 102.616 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebc10b52-63f0-4fb8-a2d8-46f93db9909c")
+	)
 	(junction
 		(at 160.02 49.53)
 		(diameter 0)
