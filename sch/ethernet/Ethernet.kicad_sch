@@ -3752,6 +3752,16 @@
 			"LAN8742A_MDC"
 		)
 	)
+	(text "ETH_MDC - надо проверить"
+		(exclude_from_sim no)
+		(at 39.37 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f236012-eca1-4d10-b755-4a65e62763cf")
+	)
 	(junction
 		(at 228.6 83.82)
 		(diameter 0)
