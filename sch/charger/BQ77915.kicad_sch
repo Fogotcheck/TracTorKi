@@ -6308,16 +6308,6 @@
 		)
 		(uuid "4d96dd87-01ed-4979-a8f7-aea8e94b03a5")
 	)
-	(text "нужно проверить"
-		(exclude_from_sim no)
-		(at 102.616 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebc10b52-63f0-4fb8-a2d8-46f93db9909c")
-	)
 	(junction
 		(at 160.02 49.53)
 		(diameter 0)
@@ -6808,16 +6798,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 100.33) (xy 68.58 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b871085-efdd-4812-86d1-8f452d013146")
-	)
-	(wire
-		(pts
 			(xy 129.54 86.36) (xy 121.92 86.36)
 		)
 		(stroke
@@ -7025,6 +7005,16 @@
 			(type default)
 		)
 		(uuid "5f8309bf-0d01-4b13-8e8b-4ab71b1bf94a")
+	)
+	(wire
+		(pts
+			(xy 63.5 100.33) (xy 68.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa771a7-f67d-4555-b31a-84e94cfcd330")
 	)
 	(wire
 		(pts
@@ -7538,16 +7528,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 102.87) (xy 68.58 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af29eafc-79d5-4564-bfc2-8d94a1470ea0")
-	)
-	(wire
-		(pts
 			(xy 121.92 86.36) (xy 116.84 86.36)
 		)
 		(stroke
@@ -7918,6 +7898,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 102.87) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f763b2b2-02c2-4aff-8935-2d05464eb19c")
+	)
+	(wire
+		(pts
 			(xy 121.92 66.04) (xy 121.92 67.31)
 		)
 		(stroke
@@ -8122,7 +8112,7 @@
 	)
 	(global_label "BQ25798_NTC"
 		(shape input)
-		(at 68.58 100.33 0)
+		(at 68.58 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8132,7 +8122,7 @@
 		)
 		(uuid "669260bd-1983-4efa-a389-f90570f0c830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7489 100.33 0)
+			(at 84.7489 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8134,7 @@
 	)
 	(global_label "BQ77915_NTC"
 		(shape input)
-		(at 68.58 102.87 0)
+		(at 68.58 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8154,7 +8144,7 @@
 		)
 		(uuid "6c423f0d-6ef2-4c74-9646-d58d4d298798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7489 102.87 0)
+			(at 84.7489 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
