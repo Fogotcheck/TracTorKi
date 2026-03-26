@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "1335e999-828f-459f-82af-24a44d7c9a1c")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0f6ae810-18c8-4053-b65b-18168172d752")
 		(property "Sheetname" "charger"
 			(at -297.18 -0.7116 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "sch/charger/power.kicad_sch"
 			(at -297.18 210.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,11 +64,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "23f450b6-6767-4090-beb6-78191605da44")
 		(property "Sheetname" "Motor"
 			(at -297.18 861.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +80,8 @@
 		)
 		(property "Sheetfile" "sch/motor/Motor.kicad_sch"
 			(at -297.18 1073.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,11 +110,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3707a4c1-5603-4ce8-9306-a06416257074")
 		(property "Sheetname" "MCU"
 			(at 0 213.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,6 +126,8 @@
 		)
 		(property "Sheetfile" "sch/mcu/stm23H743zit6.kicad_sch"
 			(at 0 426.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,11 +156,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "66dfc33f-cb9b-498d-83e0-7d8dc6239511")
 		(property "Sheetname" "Ethernet"
 			(at -297.18 429.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,6 +172,8 @@
 		)
 		(property "Sheetfile" "sch/ethernet/Ethernet.kicad_sch"
 			(at -297.18 640.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,11 +202,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7b457f61-c4c9-4548-a960-b4e7dbb3be5e")
 		(property "Sheetname" "IMU"
 			(at -297.18 213.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +218,8 @@
 		)
 		(property "Sheetfile" "sch/imu/imu.kicad_sch"
 			(at -297.18 426.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,11 +248,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "95afd035-a2fa-4a8f-9646-34a7b14e2fc0")
 		(property "Sheetname" "TOF"
 			(at -295.91 1082.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,6 +264,8 @@
 		)
 		(property "Sheetfile" "sch/tof/VL53LOx.kicad_sch"
 			(at -295.91 1294.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,11 +294,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "aa6a3708-fa3d-4514-89f9-2e1ff7157e71")
 		(property "Sheetname" "Memory"
 			(at -297.18 644.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,6 +310,8 @@
 		)
 		(property "Sheetfile" "sch/memory/Memory.kicad_sch"
 			(at -297.18 856.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,11 +340,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e31d3348-97e5-4762-b853-bd9b1795f02d")
 		(property "Sheetname" "LED"
 			(at 0 429.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,6 +356,8 @@
 		)
 		(property "Sheetfile" "sch/leds/LED.kicad_sch"
 			(at 0 641.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
