@@ -3788,7 +3788,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -35.56 0)
 					(length 7.62)
 					(name "VCAP1"
@@ -3896,7 +3896,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -38.1 0)
 					(length 7.62)
 					(name "VCAP2"
