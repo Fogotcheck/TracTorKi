@@ -45,7 +45,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://gct.co/files/drawings/usb4085.pdf"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -892,7 +892,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_* ESDA25P35-1U1M_QFN-2L*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1929,7 +1929,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?23* SOT?323*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6311,7 +6311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4085.pdf"
 			(at 133.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7258,7 +7258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:ST_QFN-2L_1.6x1.0mm"
+		(property "Footprint" "TracTorKi:ESDA25P35-1U1M_QFN-2L_1.6x1.0mm"
 			(at 203.2 85.09 0)
 			(hide yes)
 			(show_name no)

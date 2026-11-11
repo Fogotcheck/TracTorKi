@@ -1,0 +1,236 @@
+(footprint "ESDA25P35-1U1M_QFN-2L_1.6x1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ST ESDA25P35-1U1M QFN 1610; alternative recommended land pattern from datasheet")
+	(tags "QFN-2L Diode")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "ba123e3b-3c1c-4399-8d62-65fbf352540f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESDA25P35-1U1M_QFN-2L_1.6x1.0mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "fc8f99c2-b85f-4734-a4a6-6483ff791263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5049710-0576-489f-b2d0-125524bf9740")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea0a33fe-e971-4044-a369-49c512bc2201")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.96 -0.66)
+		(end -0.96 0.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef8eb673-abe6-4b8d-b51f-db407b2b007a")
+	)
+	(fp_line
+		(start -0.96 0.66)
+		(end 0.5 0.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d58bae0-3779-4fe3-84c6-4876a0f23c94")
+	)
+	(fp_line
+		(start 0.5 -0.66)
+		(end -0.96 -0.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f9bcfd9-8caf-4bc2-b07c-551c70d5ef71")
+	)
+	(fp_rect
+		(start 1.05 0.75)
+		(end -1.05 -0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dff65b77-17b7-41b3-9438-b58946db46fd")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c871d6a9-83a1-4d8c-ad82-6dc9891a9310")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c5afec2-4f56-44d3-9f8a-347b447e9005")
+	)
+	(fp_line
+		(start -0.2 -0.275)
+		(end -0.2 0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0dd5bfa-8caf-431b-9a48-9ca1fcbabd0a")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end -0.475 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1667d530-777d-4f2a-a1ec-0f8ce1b9a534")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end 0.2 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d546f60-4ffa-4274-9ef5-d76ddf8d339c")
+	)
+	(fp_line
+		(start 0.2 -0.225)
+		(end 0.2 0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42473431-f704-4dfa-a1bc-332316950329")
+	)
+	(fp_line
+		(start 0.2 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f90e0df6-99f5-4f0e-9061-2526fa130fad")
+	)
+	(fp_line
+		(start 0.2 0.225)
+		(end -0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ab5c490-39e5-4b1e-9865-2dd34e393392")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37fef29e-e775-4e55-b55e-1bfe031ff548")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c24be06a-f7b1-46d2-88f8-f8805c5f375f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "600cc54d-1f75-40da-9cb4-4ee82365d6fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.55 0)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7d73c5a7-05da-4159-bf03-f7edaab6cba5")
+	)
+	(pad "2" smd roundrect
+		(at 0.55 0)
+		(size 0.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "37132142-8ac5-4c35-a7c0-42acaf557b2f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/ST_QFN-2L_1.6x1.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -7711,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_2Rows-09Pins"
+		(property "Value" "Molex 502386-0970"
 			(at 242.57 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7732,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5023860970"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7743,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 09 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Molex CLIK-Mate 1.25 mm, 9 circuits, single-row horizontal SMT receptacle"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8402,7 +8402,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_2Rows-09Pins"
+		(property "Value" "Molex 502386-0970"
 			(at 242.57 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8423,7 +8423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5023860970"
 			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8434,7 +8434,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 09 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Molex CLIK-Mate 1.25 mm, 9 circuits, single-row horizontal SMT receptacle"
 			(at 241.3 30.48 0)
 			(hide yes)
 			(show_name no)
