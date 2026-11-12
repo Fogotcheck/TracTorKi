@@ -1,0 +1,15 @@
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-F_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-In1_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-In2_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-In3_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-In4_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-B_Cu.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-F_Paste.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-B_Paste.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-F_Silkscreen.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-B_Silkscreen.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-F_Mask.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-B_Mask.gbr'.
+Начерчено в '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-Edge_Cuts.gbr'.
+Создан файл Gerber Job '/mnt/wstorage/kicad/TracTorKi/TracTorKi/production/gerbers/TracTorKi-job.gbrjob'.
+Информация: Готово.
