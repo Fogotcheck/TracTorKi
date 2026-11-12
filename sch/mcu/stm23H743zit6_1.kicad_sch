@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3788,7 +3788,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -35.56 0)
 					(length 7.62)
 					(name "VCAP1"
@@ -3896,7 +3896,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -38.1 0)
 					(length 7.62)
 					(name "VCAP2"
@@ -7014,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdalc6v1w2.pdf"
 			(at 210.82 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9578,7 +9578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
 			(at 107.95 52.07 0)
 			(hide yes)
 			(show_name no)
